@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+
+html, body {
+  height: 100%;
+}
+
+.App {
+  background-image: linear-gradient(to top, #B2B6DE, #00BAFD);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(to top, #B2B6DE, #00BAFD) #00BAFD;
+  height: 100vh;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo{
+  margin-left: -750px;
+}

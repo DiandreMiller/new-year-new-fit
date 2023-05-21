@@ -1,0 +1,17 @@
+#weight, #dateofbirth, #username, #height, #age,
+#fitness_level, #gender, #workout_type, #photo_link{
+    height: 18px;
+    border-radius: 10px;
+    
+}
+
+
+  
+
+#weight:hover, #weight:focus, #dateofbirth:hover, #dateofbirth:focus 
+#username:hover, #username:focus, #height:hover, #height:focus, #age:hover,
+#age:focus, #fitness_level:hover, #fitness_level:focus, #gender:hover, #gender:focus,
+#workout_type:hover, #workout_type:focus, #photo_link:hover, #photo_link:focus{
+    background-color: black;
+    color: whitesmoke;
+}

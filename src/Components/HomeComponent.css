@@ -1,0 +1,30 @@
+.trainer{
+    margin-left: -400px;
+    height: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.story{
+    color: red;
+    width: 900px;
+    margin-left: 70px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -40px;
+    
+}
+
+button{
+    display: grid;
+    justify-content: right;
+    background-color: whitesmoke;
+    color: red;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    margin-left: 85%;
+
+}

@@ -1,0 +1,14 @@
+.button{
+    background-color: transparent;
+    color: red;
+    border: transparent;
+    font-size: large;
+    margin: 5px;
+
+}
+
+.button:hover{
+    font-size: x-large;
+    cursor: pointer;
+    
+}

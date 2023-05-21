@@ -1,0 +1,10 @@
+#name, #duration, #calories_burned, #workout, #weight_pounds_lifted, #workout_reps{
+    border-radius: 10px;
+}
+
+#name:hover, #name:focus, #duration:hover, #duration:focus, #calories_burned:hover, 
+#calories_burned:focus, #workout:hover, #workout:focus, #weight_pounds_lifted:hover,
+#weight_pounds_lifted:focus, #workout_reps:hover, #workout_reps:focus{
+    background-color: black;
+    color: whitesmoke;
+}

@@ -1,0 +1,28 @@
+#founded{
+    color: red;
+    margin-left: -500px;
+    padding-bottom: 35px
+}
+
+.footer_container{
+    margin-top: 50px;
+    margin-left: -750px;
+   
+}
+
+.footer_container:hover{
+    cursor: pointer;
+}
+
+.social:hover{
+    height: 60px;
+}
+
+
+.social1{
+    transform: translateY(5px);
+}
+.social1:hover{
+    height: 80px;
+    
+}
