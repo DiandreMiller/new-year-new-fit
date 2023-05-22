@@ -15,6 +15,9 @@ import New_Year_New_Fit from './Images/New_Year_New_Fit_Logo.png'
 import OneUserWorkout from './ComponentWorkout/OneUserWorkout';
 import EditWorkout from './Pages/EditWorkout';
 import CreateAWorkout from './Pages/CreateAWorkout';
+import SignIn from './Components/auth/SignIn';
+import SignUp from './Components/auth/SignUp';
+// import AuthDetails from './Components/auth'
 
 
 function App() {
@@ -24,6 +27,8 @@ function App() {
         <Link className='logo' to='/'><img src={New_Year_New_Fit} alt='New Year New Fit Logo' width='600px' /></Link>
         <Navbar/>
         <Routes>
+          <Route element={<SignIn />} path='/sign-in' />
+          <Route element={<SignUp/>} path='/sign-up' />
           <Route element={<HomeComponent />} path='/' />
           <Route element={<GetAllUsers />} path='/users' />
           <Route element={<GetOneUser />} path='/users/:id' />

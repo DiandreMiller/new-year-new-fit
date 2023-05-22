@@ -31,7 +31,7 @@ const HomeComponent = () => {
                 feel like you're torturing yourself. Click below to get started!
             </p>
             <MotivationalQuotes />
-            <Link className='button' to='/users/new'><button>Get Started &gt;&gt;</button></Link>
+            <Link className='button' to='/sign-in'><button>Get Started &gt;&gt;</button></Link>
         </div>
     );
 };
