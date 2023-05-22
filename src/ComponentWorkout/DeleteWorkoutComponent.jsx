@@ -11,7 +11,7 @@ const DeleteWorkoutComponent = () => {
     const handleDelete = () => {
         if (window.confirm('Are You Sure You Want to Delete Workout')) {
             if (window.confirm('This Action Cannot be Undone')) {
-                axios.delete(`${process.env.REACT_APP_BACKEND_API}/workout/${id}`)
+                axios.delete(`${process.env.REACT_APP_BACKEND_API}/workouts/${id}`)
                 navigate(`/users/${id}`)
             }
             

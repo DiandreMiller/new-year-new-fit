@@ -1,20 +1,24 @@
 import { useState } from "react";
 import { auth } from '../../Components/firebase';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
+import './SignUp.css'
+import { useNavigate } from "react-router-dom";
 
 const SignUp = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [error, setError] = useState(null); // State for error message
+  const [error, setError] = useState(null);
+  const navigate = useNavigate()
 
   const handleSubmit = (event) => {
     event.preventDefault();
     createUserWithEmailAndPassword(auth, email, password)
       .then(userCredentials => {
-        console.log('userCredentials', userCredentials);
+          console.log('userCredentials', userCredentials);
+          navigate('/users/new')
       })
       .catch(error => {
-        setError(error.message); // Set error message in state
+        setError(error.message); 
         console.log(error);
       });
   };
@@ -45,7 +49,7 @@ const SignUp = () => {
         <br /><br />
         <button>Sign Up</button>
       </form>
-      {error && <p className="error_message">{error}</p>} {/* Display error message if it exists */}
+      {error && <p className="error_message">{error}</p>} 
     </div>
   );
 };

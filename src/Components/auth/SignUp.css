@@ -1,0 +1,10 @@
+#email, #password{
+    height: 18px;
+    border-radius: 10px;
+}
+
+#email:hover, #email:focus, #password:hover, #password:focus{
+    background-color: black;
+    color: whitesmoke;
+}
+
