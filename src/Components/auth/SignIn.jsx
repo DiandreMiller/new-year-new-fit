@@ -3,6 +3,7 @@ import { auth } from '../../Components/firebase';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { useNavigate } from "react-router-dom";
 import './SignIn.css';
+import { Link } from "react-router-dom";
 
 const SignIn = () => {
   const [email, setEmail] = useState('');
@@ -48,7 +49,10 @@ const SignIn = () => {
         />
         <button>Sign In</button>
       </form>
-      {error && <p className="error_message">{error}</p>} 
+          {error && <p className="error_message">{error}</p>} 
+          
+          <br/><br/>
+          <Link to='/sign-up'><button>Sign Up</button></Link>
     </div>
   );
 };
