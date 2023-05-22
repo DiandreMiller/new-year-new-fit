@@ -2,7 +2,7 @@
 
 ## View the App on the Web
 
-You can view this project on the web  [here](https://snackalogproject.netlify.app/).
+You can view this project on the web  [here](https://new-year-new-fit1.netlify.app/).
 
 ## How to Install Locally
 
@@ -31,4 +31,4 @@ You can view this project on the web  [here](https://snackalogproject.netlify.ap
 * Here is a link to the [Trello Board](https://trello.com/b/knKkRgTj/workout)
 
 #### Snack A Log Back End Deployment Link
-https://snackalogproject.netlify.app/
+https://new-year-new-fit1.netlify.app/
